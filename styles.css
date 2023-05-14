@@ -1,0 +1,62 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+.coin {
+  text-align: center;
+  display: inline-block;
+
+}
+.gamerules{
+    
+  text-align:left;
+}
+
+body {
+  background-color:#2A2F4F;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #FF6969;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+ 
+.rules {
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 black;
+  font-size: 2rem;
+  color: #4ECCA3;
+}
+ .gamerules {
+  font-size: 01rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+    
+ }
+
+.reload-button {
+  position:sticky;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}

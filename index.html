@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+    <h3 class="rules">Rules:</h3>
+     <ul class="gamerules">
+      <li>If player 1 dice greater than player 2 dice and player 1 gets head than player 1 wins</li>
+      <li>If player 2 dice greater than player 1 dice and player 1 gets tail than player 2 wins</li>
+      <li>If player 1 dice is equal to player 2 dice and player 1 gets head than player 1 wins</li>
+      <li>If player 1 dice is equal to player 2 dice and player 2 gets tail than player 2 wins</li>
+      <li>No one wins if above criterion is not met</li>
+      <li>note: refresh page to get new results ! </li>
+     </ul>
+        
+      
+
+    <div class="container">
+      <h1>Refresh Me</h1>
+      
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="./images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="./images/dice6.png">
+      </div>
+      <div class="coin">
+        <p class="coinoutput">It is a </p>
+        <img class="img3" src="./images/coin1.png">
+      </div>
+
+
+    </div>
+    <button class="reload-button" onclick="window.location.reload()">Reload</button>
+     
+
+
+  </body>
+
+    <script src="./index.js" charset="utf-8" > </script>
+
+</html>
